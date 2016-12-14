@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>You Tube Music Selector</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.min.js"></script>
+  <!--This is for the font links -->
+ <link href="https://fonts.googleapis.com/css?family=New+Rocker|Bungee+Inline|Lobster|Rock+Salt|Oswald" rel="stylesheet">
+
+
+  <!-- This part is for the skelenton frame -->
+  <link rel="stylesheet" href="skeleton/normalize.css">
+  <link rel="stylesheet" href="skeleton/skeleton.css">
+
+  <link href="styles.css" rel="stylesheet">
+
+</head>
+<body ng-app="musicMod">
+
+    <!-- div is for header content -->
+    <header>
+         <div class="container">
+          <div class="row">
+            <div class="two columns">
+                <a href="/">
+                  <div class="logo">
+                    <img src="images/logo.svg" alt="logo"/>
+                  </div>
+                </a>
+            </div>
+            <div class="ten columns">
+              <div class="header-title">
+                  <h1>Musical Roulette</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+    </header>
+
+    <!-- <div class="bigView" ng-view></div> -->
+    <div ng-view></div>
+
+    <footer>
+        <div class="container">
+          <div class="row">
+            <div class="twelve columns">
+                <img src="images/instruments.png" alt ="instruments">
+            </div>
+          </div>
+        </div>
+    </footer>
+
+
+
+  <script src='js/app.js'></script>
+  <script src="js/ng-youtube-embed.js"></script>
+  <script src='js/mainCtrl.js'></script>
+  <script src='js/ytFactory.js'></script>
+  <script src='js/musicCtrl.js'></script>
+</body>
+</html>

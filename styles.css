@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css?family=New+Rocker|Bungee+Inline|Lobster|Rock+Salt|Pacifico|Oswald");
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #d4d4d4; }
+
+footer {
+  border-bottom: 90px solid black;
+  width: 100%;
+  padding: 1rem;
+  position: relative;
+  margin: 0; }
+  footer img {
+    width: 100%;
+    margin-bottom: -17px; }
+
+header {
+  background-color: black;
+  position: relative;
+  right: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem; }
+  header h1 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    position: relative;
+    margin-bottom: 0px;
+    font-size: 5rem;
+    /*top: 18px;
+    left: 10px;*/ }
+  header p {
+    padding-top: 2rem; }
+  header a {
+    text-decoration: none; }
+  header div.logo {
+    width: 90%; }
+  header div.header-title {
+    width: 100%;
+    margin-top: 5%; }
+
+.main-description {
+  background-color: white;
+  padding: 1rem 1rem;
+  margin: 5% auto;
+  position: relative;
+  border: solid 1.5px black;
+  border-radius: 5px;
+  max-width: 80%; }
+  .main-description h4 {
+    padding-right: .5em;
+    padding-left: .5em;
+    padding-top: 1rem; }
+  .main-description p {
+    margin-left: .5em;
+    margin-right: .5em;
+    margin-bottom: 1em; }
+
+.mainview {
+  min-height: 90vh; }
+
+.generator {
+  background-color: white;
+  background-image: url(images/headphones_bw.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0% auto;
+  padding: 1rem 1rem;
+  padding-bottom: 10px;
+  position: relative;
+  border: solid 1.5px black;
+  border-radius: 5px;
+  max-width: 80%; }
+  .generator h6 {
+    font-weight: bold;
+    margin-bottom: .5rem;
+    padding-right: 1em;
+    padding-left: 1em; }
+
+@media (min-width: 400px) {
+  .generator {
+    background-size: 250%;
+    background-position: -234px; } }
+
+@media (min-width: 550px) {
+  .generator {
+    background-size: 220%; } }
+
+@media (min-width: 750px) {
+  .generator {
+    background-size: 175%;
+    background-position: -180px; } }
+
+@media (min-width: 1000px) {
+  .generator {
+    background-size: 130%;
+    background-position: -80px; } }
+
+#yearpadding {
+  padding-top: 1rem; }
+
+.countryview {
+  padding: 1rem 1rem; }
+  .countryview h1, .countryview h3 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: #633f17; }
+  .countryview p, .countryview li, .countryview a {
+    font-family: helvetica;
+    color: #633f17; }
+  .countryview a {
+    text-decoration: none; }
+  .countryview div.country {
+    background-color: rgba(99, 63, 23, 0.4); }
+  .countryview .country-wrapper {
+    background-color: rgba(99, 63, 23, 0.4);
+    border: solid 1.5px black;
+    border-radius: 5px;
+    max-width: 80%;
+    margin: auto;
+    padding: 1rem 1rem;
+    position: relative; }
+
+.popview {
+  padding: 1rem 1rem; }
+  .popview h1, .popview h3 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: #041871; }
+  .popview p, .popview li, .popview a {
+    font-family: helvetica;
+    color: #041871; }
+  .popview a {
+    text-decoration: none; }
+  .popview div.pop {
+    background-color: rgba(4, 24, 113, 0.4); }
+  .popview .pop-wrapper {
+    background-color: rgba(4, 24, 113, 0.4);
+    border: solid 1.5px black;
+    border-radius: 5px;
+    margin: auto;
+    padding: 1rem 1rem;
+    position: relative;
+    max-width: 80%; }
+
+.rockview {
+  padding: 1rem 1rem;
+  width: auto; }
+  .rockview h1, .rockview h3 {
+    font-family: 'New Rocker', cursive;
+    text-align: center;
+    color: #602d90; }
+  .rockview p, .rockview li, .rockview a {
+    font-family: helvetica;
+    color: #602d90; }
+  .rockview a {
+    text-decoration: none; }
+  .rockview div.rock {
+    background-color: rgba(96, 45, 144, 0.4); }
+  .rockview .rock-wrapper {
+    background-color: rgba(96, 45, 144, 0.4);
+    border: solid 1.5px black;
+    border-radius: 5px;
+    margin: auto;
+    padding: 1rem 1rem;
+    position: relative;
+    max-width: 80%; }
+
+.rapview {
+  padding: 1rem 1rem; }
+  .rapview h1, .rapview h3 {
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    color: #9a1d20; }
+  .rapview p, .rapview li, .rapview a {
+    font-family: helvetica;
+    color: #9a1d20; }
+  .rapview a {
+    text-decoration: none; }
+  .rapview div.rap {
+    background-color: rgba(154, 29, 32, 0.4); }
+  .rapview .rap-wrapper {
+    background-color: rgba(154, 29, 32, 0.4);
+    border: solid 1.5px black;
+    border-radius: 5px;
+    margin: auto;
+    padding: 1rem 1rem;
+    position: relative;
+    max-width: 80%; }
+
+div.video {
+  margin: auto;
+  text-align: center;
+  padding: 1rem 1rem;
+  position: relative;
+  max-width: 80%;
+  background-color: black; }
+
+.artistBio {
+  margin: 5% auto;
+  padding: 1rem 1rem;
+  position: relative;
+  border: solid 1.5px black;
+  border-radius: 5px;
+  max-width: 80%; }
+  .artistBio p {
+    padding-right: 1em;
+    padding-left: 1em; }
+
+.topAlbums, .similarArtist {
+  padding: 1rem 1rem; }
+  .topAlbums p, .similarArtist p {
+    text-align: center; }
+
+p {
+  font-family: helvetica;
+  padding-right: 1em;
+  padding-left: .5em; }
+
+li {
+  font-family: helvetica;
+  list-style-type: disc;
+  list-style-position: inside;
+  text-indent: -2em;
+  padding-left: 2.2em; }
+
+button {
+  display: block;
+  margin-top: 1%;
+  margin-left: 1em;
+  margin-bottom: 1em; }
+
+.animate {
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  width: 12em;
+  padding-left: 5px;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  background: black;
+  border: 1px solid black;
+  color: #FFF;
+  overflow: hidden;
+  transition: all 0.5s; }
+
+.animate:hover, .animate:active {
+  text-decoration: none;
+  color: black;
+  border-color: black;
+  background: #FFF; }
+
+.animate span {
+  display: inline-block;
+  position: relative;
+  transition: padding-right 0.5s; }
+
+.animate span:after {
+  content: '  ';
+  position: absolute;
+  top: 0;
+  right: -11px;
+  opacity: 0;
+  width: 10px;
+  height: 10px;
+  margin-top: -10px;
+  background: transparent;
+  border: 3px solid #FFF;
+  border-top: none;
+  border-right: none;
+  transition: opacity 0.5s, top 0.5s, right 0.5s;
+  transform: rotate(-45deg); }
+
+.animate:hover span, .animate:active span {
+  padding-right: 20px;
+  padding-left: 0em; }
+
+.animate:hover span:after, .animate:active span:after {
+  transition: opacity 0.5s, top 0.5s, right 0.5s;
+  opacity: 1;
+  border-color: black;
+  right: 0;
+  top: 50%; }
+
+.newVid-button {
+  display: block;
+  margin: 2.5% auto;
+  background-color: black; }
+  .newVid-button a {
+    color: white; }
+
+select {
+  width: 140px; }
+
+.ng-pristine, .ng-valid, .ng-not-empty, .ng-dirty, .ng-valid-parse,
+.ng-touched, .ng-untouched, .ng-valid, .ng-empty {
+  margin-left: 1em; }

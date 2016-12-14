@@ -1,0 +1,34 @@
+<section class="mainview">
+    <div class="container"><!-- main content -->
+
+        <!-- description content - this will be wrapped in a row, tweleve column -->
+        <div class="row">
+            <div class="twelve columns">
+                <div class="main-description">
+                  <h4>Push button. Get video. It's that simple.</h4>
+                  <p>Pick a year &amp; genre and a random video pops on your screen. Like the artist
+                  and want to know more? Check out their bio and top albums. Dig their style? Check out the similar
+                  artists. So grab your cowboy hats, gold chains, electric guitars &amp; dancing shoes. Let's start jammin&rsquo;.</p>
+                </div>
+            </div>
+        </div>
+        <!-- input selection - this will be wrapped in a row, tweleve column -->
+        <div class="row">
+            <div class="twelve columns">
+                <div class="generator">
+                    <!-- <p>Choose a Year</p> -->
+                     <h6 id="yearpadding">Choose a Year</h6>
+                    <select ng-model="year">
+                        <option ng-repeat="decade in yearArray" value="{{decade}}">{{decade}}</option>
+                    </select>
+                    <!-- <p>Choose a Genre</p> -->
+                    <h6 id="genrepadding">Choose a Genre</h6>
+                    <select ng-model="genre">
+                        <option ng-repeat="musicType in genreArray" value="{{musicType}}">{{musicType}}</option>
+                    </select>
+                    <button type="button" class="animate" ng-click="sendChoices(year, genre)"><span>Get My Video!</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
